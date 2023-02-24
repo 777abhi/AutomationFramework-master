@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.tpo.test.TestAPI">
+        <methods>
+          <include name="testGetMethod"/>
+          <include name="testDeleteMethod"/>
+          <include name="testPutMethod"/>
+          <include name="testPostMethod"/>
+        </methods>
+      </class> <!-- com.tpo.test.TestAPI -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
